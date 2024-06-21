@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+.captcha-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#captcha {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    user-select: none;
+}
+    
+input, button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
